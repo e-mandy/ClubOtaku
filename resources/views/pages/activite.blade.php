@@ -48,19 +48,19 @@
                 <div class="contain1">
                     <div class="activity">
                         <h4>Japan Learning</h4>
-                        <img style="object-position:center -4vw;" src="{{../../assets/imgs/activite/japanLearning.png" alt="">
+                        <img style="object-position:center -4vw;" src="{{asset('assets/images/activite/japanLearning.png')}}" alt="">
                         <p>Découvrez et apprenez les bases de la langue japonaise.</p>
                         <a href="" ><p>En savoir plus</p></a>
                     </div>
                     <div class="activity">
                         <h4>Karaoke</h4>
-                        <img src="{{../../assets/imgs/activite/karaoke.png" alt="">
+                        <img src="{{asset('assets/images/activite/karaoke.png')}}" alt="">
                         <p>Déployez vos plus belles voix et déchaînez vous sur le micro</p>
                         <a href="" ><p>En savoir plus</p></a>
                     </div>
                     <div class="activity">
                         <h4>Tribunal</h4>
-                        <img src="{{../../assets/imgs/activite/tribunal.png" alt="">
+                        <img src="{{asset('assets/images/activite/tribunal.png')}}" alt="">
                         <p>Participez à un clash d’opinions en défendant votre thèse.</p>
                         <a href="" ><p>En savoir plus</p></a>
                     </div>
@@ -68,19 +68,19 @@
                 <div class="contain2">
                     <div class="activity">
                         <h4>Doublage</h4>
-                        <img src="{{../../assets/imgs/activite/doublage.png" alt="">
+                        <img src="{{asset('assets/images/activite/doublage.png')}}" alt="">
                         <p>Incarnez et devenez un personnage de vos animes préférés</p>
                         <a href="" ><p>En savoir plus</p></a>
                     </div>
                     <div class="activity">
                         <h4>Dessin</h4>
-                        <img style="object-position:center -4vw;" src="{{../../assets/imgs/activite/dessin.png" alt="">
+                        <img style="object-position:center -4vw;" src=" {{asset('assets/images/activite/dessin.png')}} " alt="">
                         <p>Apprenez les bases du dessin et étendez les horizons de vos pensées.</p>
                         <a href="" ><p>En savoir plus</p></a>
                     </div>
                     <div class="activity">
                         <h4>StoryTelling</h4>
-                        <img src="{{../../assets/imgs/activite/storytelling.png" alt="">
+                        <img src=" {{asset('assets/images/activite/storytelling.png')}} " alt="">
                         <p>Apprenez les bases d’un scénario
                             proprement écrit</p>
                         <a href="" ><p>En savoir plus</p></a>

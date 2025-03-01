@@ -7,7 +7,7 @@
     @include("links.style")
 </head>
 <body>
-    <header>@include('components.header')</header>
+    <nav>@include('components.header')</nav>
     @yield('container')
 
 
