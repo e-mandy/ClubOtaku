@@ -1,0 +1,46 @@
+*{
+    margin:0;
+}
+body{
+    font-family:"Poppins", serif;
+}
+.navbar{
+  display:flex;
+  align-items: center;
+  justify-content:space-between;
+  background-color:#D5891B;
+  padding:0.4vw;
+}
+.nav{
+    display:flex;
+    gap:2vw;
+    align-items: center;
+    padding:0 1.5vw 0 0;
+}
+.nav a{
+   text-decoration:none;
+   color:black;
+   font-size:15px;
+   color:white;
+   width:8vw;
+   text-align: center;
+   transition:color 0.3s;
+}
+
+.nav a:hover{
+   color:#542409;
+}
+.logo_club{
+    width:5%;
+    border-radius:50%;
+}
+.menu{
+   width: 11%;
+}
+.menu div{
+    width:100%;
+    height:6px;
+    margin-top:3px;
+    background-color: #E3E3E3;
+    border-radius:2px;
+}

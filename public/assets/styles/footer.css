@@ -1,0 +1,88 @@
+:root{
+    --background-color: #542409;
+    --font-color: #FFFFFF;
+    --font-family: "Poppins", serif;
+}
+
+*{
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+footer{
+    max-width: 100%;
+    background-color: var(--background-color);
+    color: var(--font-color);
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: var(--font-family);
+}
+
+.top-info{
+    padding-left: 6%;
+    padding-right: 6%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-info h1{
+    font-size: 1.3em;
+}
+
+.links{
+    display: flex;
+    gap: 4vw;
+}
+
+.pages-link ul, .reseau-link ul{
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.pages-link a, .reseau-link a{
+    text-decoration: none;
+    color: var(--font-color);
+}
+
+.summary-website{
+    width: 30%;
+    text-align: justify;
+}
+
+hr{
+    max-width: 95%;
+    padding: 0;
+    margin: auto;
+}
+
+.bottom-info{
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1%;
+    padding-right: 2%;
+    align-items: center;
+
+}
+
+.politics{
+    display: flex;
+    gap: 1vw;
+}
+
+.icon-links{
+    display: flex;
+    gap: 1.5vw;
+}
+
+.icon-links i{
+    font-size: 20px;
+}
