@@ -1,0 +1,230 @@
+*{
+    margin:0;
+}
+:root{
+    --DarkCyan:#0B262A;
+    --Cyan:#0E3335;
+    --LightCyan:#148A88;
+}
+.header{
+    background-color:#542409;
+    height:300px;
+}
+.hero_image{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.image_container{
+    width:100%;
+    height:380px;
+    z-index:-2;
+}
+.image_container::after{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:380px;
+    background:linear-gradient(120deg,rgba(163, 163, 163, 0.4),rgba(0,0,0,0.4))
+
+}
+.hero_text{
+    position:absolute;
+    margin:-17vw auto 0 23vw;
+}
+.wide_font{
+    font-size:60px;
+}
+.white{
+    color:white;
+}
+.container_card{
+    display:flex;
+    z-index:3;
+    justify-content:space-around;
+    /* position:absolute; */
+}
+.container_card h3{
+    color:white;
+    font-weight: medium;
+}
+.container_card a{
+    text-decoration: none;
+    color:black;
+}
+.page_card{
+    width:300px;
+    height:250px;
+    margin-top:-50px;
+    border-radius:5px;
+    box-shadow: 0 0 20px 10px;
+    display:flex;
+    z-index:3;
+    padding:10px;
+    flex-direction: column;
+    align-items: center;
+    /* height:250px; */
+    justify-content: center;
+    transition:transform 0.5s, box-shadow 0.5s;
+}
+.page_card:hover{
+   /* transform:scale(1.1); */
+   box-shadow:0 0 5px 10px pink;
+}
+
+.page_card svg{
+    width:35px;
+    margin:10px 0 10px 0;
+}
+.page_card img{
+    object-fit: cover;
+    width:200px;
+    height:130px;
+    border-radius:10px;
+}
+.gradient{
+    background:linear-gradient(30deg,#148A88 0%,#0B262A 100%);
+    padding:1.5vw 0 1.5vw 0 ;
+    background-clip:text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+.activite{
+    background-color:var(--Cyan);
+    height:69vw;
+}
+.container_activity{
+    display:flex;
+    flex-direction: column;
+    padding:4vw;
+
+}
+.contain1,.contain2{
+   padding:15px;
+   display:flex;
+   justify-content: space-around;
+   overflow:hidden;
+}
+.activity{
+    width:28%;
+    height:250px;
+    padding:10px 10px 5px 10px;
+    border:1px solid black;
+    display:flex;
+    flex-direction:column ;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    background-color: #0B262A;
+}
+.activity  p{
+    font-size:13px;
+    width:80%;
+    margin-top:10px;
+    align-items: center;
+}
+.activity a p:hover{
+    background-color:#148A88;
+}
+.activity a p{
+    font-size:12px;
+    width:200px;
+    border: 1px solid black;
+    background-color: white;
+    transition:background-color 0.3s;
+    padding:4px;
+    border-radius:30px;
+    font-weight:bold;
+}
+.activity a{
+    text-decoration: none;
+    color:rgb(34, 34, 34);
+    /* border:1px solid black; */
+    text-align: center;
+
+}
+.activity img{
+   width:300px;
+   height:130px;
+   object-fit: cover;
+   object-position: center center
+}
+.other{
+    font-size:30px;
+    font-weight:600;
+    text-align:center;
+}
+.event{
+    background-color: #0E3335;
+    height:105vw;
+}
+.EventRealise{
+    width:60%;
+    margin: 50px auto 50px auto;
+    height:50vw;
+    display:grid;
+    gap:30px;
+    grid-template-columns: reapeat(3,100px);
+    grid-template-rows: repeat(3,200px);
+    grid-template-areas: "item1 item2 item2"
+                         "item1 item3 item3"
+                         "item4 item4 item4";
+}
+
+.item1{
+   background: url("../imgs/activite/volley.jpeg");
+   grid-area: item1;
+   border-radius: 10px;
+   background-size:cover;
+
+}
+.item2{
+  background: url("../imgs/activite/cook.jpeg");
+  grid-area:item2;
+  border-radius: 10px;
+  background-size:cover;
+}
+.item3{
+  background:url("../imgs/activite/paintball.jpeg");
+  grid-area:item3;
+  border-radius: 10px;
+  background-size:cover;
+}
+.item4{
+  background: url("../imgs/activite/festival.jpeg");
+  grid-area:item4;
+  object-fit: cover;
+  border-radius: 10px;
+  background-size:cover;
+}
+.loadTitle{
+     font-size:40px;
+     text-align: center;
+}
+.loading{
+    width:65%;
+    margin:3.5vw auto 3.5vw auto;
+    height:160px;
+    border-radius:10px;
+    background: blue;
+
+}
+.event1{
+   background-image: url("../imgs/activite/pool.jpeg");
+   background-size:cover;
+}
+.event2{
+   background-image:url("../imgs/activite/festivent.jpeg");
+   background-size: cover;
+}
+.actu{
+    background-color:#242424;
+    height:50vw;
+    padding-top:3vw;
+}
+.actuTitle{
+    text-align:center;
+    font-size:50px;
+}
