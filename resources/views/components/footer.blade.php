@@ -6,9 +6,9 @@
             <div class="pages-link">
                 <h3>Pages</h3>
                 <ul>
-                    <li><a href="../../pages/accueil/accueil.html">Accueil</a></li>
-                    <li><a href="../../pages/activites/actvite.html">Nos Activités</a></li>
-                    <li><a href="../../pages/contact/contact.html">Contact</a></li>
+                    <li><a href="{{ route('accueil') }}">Accueil</a></li>
+                    <li><a href="{{ route('activite') }}">Nos Activités</a></li>
+                    <li><a href="{{ route('contact') }}">Contact</a></li>
                 </ul>
             </div>
             <div class="reseau-link">

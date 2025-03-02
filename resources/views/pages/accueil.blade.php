@@ -9,8 +9,8 @@
             <h1><span><i class="fa-solid fa-yin-yang"></i> HAIYO GOSAIMASU</span><span>MINA SAN</span></h1>
             <p>Bienvenue au club Otaku d'Esgis</p>
             <div class="button-action">
-                <a class="more" href="">Voir plus</a>
-                <a class="contact-link" href="">Contactez - nous</a>
+                <a class="more" href="{{ route('activite') }}">Voir plus</a>
+                <a class="contact-link" href="{{ route('contact') }}">Contactez - nous</a>
             </div>
         </div>
         <div class="image-content"></div>
@@ -66,32 +66,32 @@
             <div class="carou-main">
                 <div class="carou-contents">
                     <div class="carou-content">
-                        <img src="../../assets/imgs/accueil/img13.jpeg" alt="">
+                        <img src="{{asset('assets/images/accueil/img13.jpeg')}}" alt="">
                     </div>
                     <div class="carou-content">
-                        <img src="../../assets/imgs/accueil/img14.jpeg" alt="">
+                        <img src="{{asset('assets/images/accueil/img14.jpeg')}}" alt="">
                     </div>
                     <div class="carou-content">
-                        <img src="../../assets/imgs/accueil/img15.jpeg" alt="">
+                        <img src="{{asset('assets/images/accueil/img15.jpeg')}}" alt="">
                     </div>
                     <div class="carou-content">
-                        <img src="../../assets/imgs/accueil/img16.jpeg" alt="">
+                        <img src="{{asset('assets/images/accueil/img16.jpeg')}}" alt="">
                     </div>
                     <div class="carou-content">
-                        <img src="../../assets/imgs/accueil/img17.jpeg" alt="">
+                        <img src="{{asset('assets/images/accueil/img17.jpeg')}}" alt="">
                     </div>
                     <div class="carou-content">
-                        <img src="../../assets/imgs/accueil/img18.jpeg" alt="">
+                        <img src="{{asset('assets/images/accueil/img18.jpeg')}}" alt="">
                     </div>
                     <div class="carou-content">
-                        <img src="../../assets/imgs/accueil/img18.jpeg" alt="">
+                        <img src="{{asset('assets/images/accueil/img18.jpeg')}}" alt="">
                     </div>
                 </div>
                 <div class="carou-button left"></div>
                 <div class="carou-button right"></div>
             </div>
             <div class="carou-action">
-                <a href=""class="carou-button-action">En savoir plus</a>
+                <a href="{{ route('activite') }}"class="carou-button-action">En savoir plus</a>
                 <p>Vous souhaitez en voir plus ? Visitez notre page d’activités en cliquant sur le bouton ci-dessus.</p>
             </div>
         </div>

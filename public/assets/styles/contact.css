@@ -1,0 +1,146 @@
+.contact_header{
+    background-color: #542409;
+    height:20vw;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+
+}
+.contact_header::after{
+   content:"";
+   position:absolute;
+   height:20vw;
+   width:100%;
+   top:0;
+   left:0;
+   background-color:rgba(0,0,0,0.2);
+}
+.white{
+    color:white;
+}
+.contact_header h1{
+    background:linear-gradient(grey,rgb(231, 230, 230),grey);
+    background-clip: text;
+    color:transparent;
+    font-size: 60px;
+    /* text-align: center; */
+}
+.contact_header p{
+    margin-top:4vw;
+}
+.formulaire{
+    background-color:#E3E0E0;
+    height: 65vw;
+    display:flex;
+    padding:30px;
+}
+.incite{
+    width:40%;
+    padding:30px;
+    margin-top:7vw;
+}
+.incite h2{
+    font-size:30px;
+}
+.incite p{
+    font-weight: bold;
+}
+.incite img{
+    width:500px;
+}
+.fill{
+    width:100%;
+}
+.fill-form{
+    margin-top:6.5vw;
+    color:white;
+    width:80%;
+    border-radius:20px;
+    padding:40px;
+    background-color:#0B262A;
+    border:1px solid black;
+    display:flex;
+    justify-content: center;
+    gap:2vw;
+    flex-direction:column;
+
+}
+.fill-form label{
+    font-size:20px;
+}
+.fill-form textarea{
+    height:10vw;
+    padding:20px;
+    font-size:16px;
+    background-color: #E3E0E0;
+    font-family: poppins;
+}
+select{
+    border:none;
+    border-right:2px solid rgb(87, 87, 87);
+    padding:7px;
+    background-color: #E3E0E0;
+    outline: none;
+}
+.fill textarea{
+   border:none;
+   resize:none;
+   outline:none;
+   font-size:17px;
+   border-radius:10px;
+}
+input{
+    border-color:transparent;
+    outline:none;
+    padding:10px;
+    font-size:15px;
+    background-color: #E3E0E0;
+    width:100%;
+}
+input[type="number"]{
+    padding:6px;;
+}
+label,input:not(input[type="number"]){
+    display:block;
+    margin-top:4px;
+    border-radius:10px;
+}
+input[type="email"]{
+    width:96%;
+    font-size: 15px;
+}
+.fill_name{
+    display:flex;
+    justify-content: space-between;
+    width:96%;
+}
+.fill_contact{
+    display:flex;
+    background-color: #E3E0E0;
+    padding:5px;
+    margin-top:4px;
+    border-radius:10px;
+}
+.submit{
+    background-color:#148A88;
+    color:white;
+    transition:background-color 0.4s, transform 0.3s;
+}
+.submit:hover{
+    background-color:rgb(19, 19, 19);
+}
+.fill img:nth-child(1){
+    width:250px;
+    position:absolute;
+    right: 10vw;
+    border-radius:50%;
+}
+.fill_end{
+    width: 130px;
+    position:absolute;
+    margin-left: 38vw;
+    /* border:1px solid black; */
+    border-radius:50%;
+    margin-top : -5vw;
+}
